@@ -1,0 +1,798 @@
+2025-10-13T14:54:57.025+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T14:54:57.025+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T14:54:57.025+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T14:54:57.096+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T14:54:57.098+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T14:54:57.098+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T14:54:57.105+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T14:54:57.105+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 79 ms
+2025-10-13T14:54:57.129+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T14:54:57.133+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T14:54:57.134+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.14 seconds (process running for 3108.81)
+2025-10-13T14:54:57.135+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T14:58:41.226+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-13T14:58:41.227+09:00  INFO 4476 --- [ex-ch03] [Thread-75] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T14:58:41.229+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T14:58:41.303+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T14:58:41.303+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T14:58:41.303+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T14:58:41.398+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T14:58:41.400+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T14:58:41.400+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T14:58:41.407+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T14:58:41.407+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 102 ms
+2025-10-13T14:58:41.442+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T14:58:41.447+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T14:58:41.449+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.182 seconds (process running for 3333.124)
+2025-10-13T14:58:41.449+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:01:36.807+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:01:36.807+09:00  INFO 4476 --- [ex-ch03] [Thread-79] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:01:36.809+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:02:18.071+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:02:18.072+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:02:18.072+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:02:18.141+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:02:18.141+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:02:18.141+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:02:18.148+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:02:18.148+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2025-10-13T15:02:18.169+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:02:18.173+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:02:18.174+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.115 seconds (process running for 3549.85)
+2025-10-13T15:02:18.175+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:02:20.576+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:02:20.576+09:00  INFO 4476 --- [ex-ch03] [Thread-87] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:02:20.578+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:02:20.631+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:02:20.631+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:02:20.631+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:02:20.701+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:02:20.701+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:02:20.701+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:02:20.707+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:02:20.707+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 75 ms
+2025-10-13T15:02:20.729+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:02:20.733+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:02:20.734+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.113 seconds (process running for 3552.41)
+2025-10-13T15:02:20.735+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:04:00.680+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T15:04:00.681+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T15:04:00.681+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-13T15:14:55.246+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:14:55.247+09:00  INFO 4476 --- [ex-ch03] [Thread-91] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:14:55.249+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:14:55.302+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:14:55.302+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:14:55.302+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:14:55.393+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:14:55.394+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:14:55.394+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:14:55.400+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:14:55.401+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 98 ms
+2025-10-13T15:14:55.435+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:14:55.439+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:14:55.440+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.151 seconds (process running for 4307.116)
+2025-10-13T15:14:55.441+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:14:56.849+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-10-13T15:14:56.850+09:00  INFO 4476 --- [ex-ch03] [Thread-95] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:14:56.852+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:14:56.902+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:14:56.902+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:14:56.902+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:14:56.973+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:14:56.973+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:14:56.973+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:14:56.980+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:14:56.980+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 77 ms
+2025-10-13T15:14:57.003+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:14:57.007+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:14:57.008+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.116 seconds (process running for 4308.684)
+2025-10-13T15:14:57.009+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:15:31.478+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-10-13T15:15:31.479+09:00  INFO 4476 --- [ex-ch03] [Thread-99] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:15:31.481+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:15:31.510+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:15:31.511+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:15:31.511+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:15:31.598+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:15:31.598+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:15:31.598+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:15:31.605+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:15:31.605+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 94 ms
+2025-10-13T15:15:31.630+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:15:31.634+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:15:31.635+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.136 seconds (process running for 4343.311)
+2025-10-13T15:15:31.636+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:32:06.023+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:32:06.023+09:00  INFO 4476 --- [ex-ch03] [Thread-103] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:32:06.025+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:32:06.066+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:32:06.066+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:32:06.066+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:32:06.147+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:32:06.148+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:32:06.148+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:32:06.154+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:32:06.154+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 87 ms
+2025-10-13T15:32:06.177+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:32:06.181+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:32:06.182+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.128 seconds (process running for 5337.858)
+2025-10-13T15:32:06.183+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:32:39.064+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:32:39.065+09:00  INFO 4476 --- [ex-ch03] [Thread-107] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:32:39.067+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:32:39.120+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:32:39.120+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:32:39.120+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:32:39.190+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:32:39.190+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:32:39.190+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:32:39.197+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:32:39.197+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2025-10-13T15:32:39.218+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:32:39.222+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:32:39.223+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.113 seconds (process running for 5370.899)
+2025-10-13T15:32:39.224+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:32:46.355+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T15:32:46.355+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T15:32:46.356+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-13T15:32:46.357+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : 안녕 루트
+2025-10-13T15:32:46.357+09:00 DEBUG 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : 안녕 루트
+2025-10-13T15:32:51.618+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-2] com.example.demo.service.ExService       : 첫 번째 값 - public
+2025-10-13T15:32:51.618+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-2] com.example.demo.service.ExService       : 두 번째 값 - static
+2025-10-13T15:32:51.618+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-2] com.example.demo.service.ExService       : 세 번째 값 - void
+2025-10-13T15:32:51.619+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-2] com.example.demo.service.ExService       : void의 인덱스: 2
+2025-10-13T15:33:10.910+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-3] com.example.demo.service.ExService       : 첫 번째 값 - public
+2025-10-13T15:33:10.910+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-3] com.example.demo.service.ExService       : 두 번째 값 - static
+2025-10-13T15:33:10.910+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-3] com.example.demo.service.ExService       : 세 번째 값 - void
+2025-10-13T15:33:10.911+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-3] com.example.demo.service.ExService       : void의 인덱스: 2
+2025-10-13T15:33:34.658+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-4] com.example.demo.service.ExService       : 첫 번째 값 - public
+2025-10-13T15:33:34.658+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-4] com.example.demo.service.ExService       : 두 번째 값 - static
+2025-10-13T15:33:34.658+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-4] com.example.demo.service.ExService       : 세 번째 값 - void
+2025-10-13T15:33:34.658+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-4] com.example.demo.service.ExService       : void의 인덱스: 2
+2025-10-13T15:34:43.597+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:34:43.598+09:00  INFO 4476 --- [ex-ch03] [Thread-111] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:34:43.600+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:34:43.653+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:34:43.653+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:34:43.653+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:34:43.722+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:34:43.722+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:34:43.722+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:34:43.729+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:34:43.729+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 75 ms
+2025-10-13T15:34:43.751+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:34:43.754+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:34:43.756+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.113 seconds (process running for 5495.432)
+2025-10-13T15:34:43.756+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:35:04.464+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:35:04.465+09:00  INFO 4476 --- [ex-ch03] [Thread-115] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:35:04.467+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:35:04.523+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:35:04.523+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:35:04.523+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:35:04.593+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:35:04.593+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:35:04.593+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:35:04.600+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:35:04.600+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2025-10-13T15:35:04.623+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:35:04.627+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:35:04.628+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.116 seconds (process running for 5516.304)
+2025-10-13T15:35:04.629+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:35:06.043+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:35:06.047+09:00  INFO 4476 --- [ex-ch03] [Thread-119] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:35:06.049+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:35:06.101+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:35:06.102+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:35:06.102+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:35:06.177+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:35:06.177+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:35:06.177+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:35:06.183+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:35:06.184+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 81 ms
+2025-10-13T15:35:06.205+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:35:06.209+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:35:06.210+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.119 seconds (process running for 5517.886)
+2025-10-13T15:35:06.211+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:36:43.226+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:36:43.227+09:00  INFO 4476 --- [ex-ch03] [Thread-123] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:36:43.229+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:36:43.281+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:36:43.281+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:36:43.281+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:36:43.358+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:36:43.359+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:36:43.359+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:36:43.365+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:36:43.365+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 83 ms
+2025-10-13T15:36:43.388+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:36:43.392+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:36:43.393+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.122 seconds (process running for 5615.069)
+2025-10-13T15:36:43.394+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:39:55.185+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:39:55.186+09:00  INFO 4476 --- [ex-ch03] [Thread-127] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:39:55.188+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:39:55.241+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:39:55.241+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:39:55.241+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:39:55.318+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:39:55.319+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:39:55.319+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:39:55.325+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:39:55.325+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 83 ms
+2025-10-13T15:39:55.347+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:39:55.351+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:39:55.353+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.122 seconds (process running for 5807.028)
+2025-10-13T15:39:55.353+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:44:02.955+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:44:02.956+09:00  INFO 4476 --- [ex-ch03] [Thread-131] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:44:02.958+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:44:03.012+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:44:03.012+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:44:03.012+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:44:03.091+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:44:03.092+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:44:03.092+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:44:03.098+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:44:03.098+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2025-10-13T15:44:03.120+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:44:03.124+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:44:03.125+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.123 seconds (process running for 6054.801)
+2025-10-13T15:44:03.126+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:44:18.730+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T15:44:18.731+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T15:44:18.731+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-13T15:44:18.732+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : == 결과: false
+2025-10-13T15:44:18.732+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : equlas 결과: true
+2025-10-13T15:44:30.883+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:44:30.884+09:00  INFO 4476 --- [ex-ch03] [Thread-135] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:44:30.886+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:44:30.938+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:44:30.938+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:44:30.938+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:44:31.014+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:44:31.014+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:44:31.014+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:44:31.021+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:44:31.021+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 82 ms
+2025-10-13T15:44:31.042+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:44:31.046+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:44:31.047+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.119 seconds (process running for 6082.723)
+2025-10-13T15:44:31.048+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:44:33.303+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T15:44:33.303+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T15:44:33.303+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-13T15:44:33.304+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : == 결과: false
+2025-10-13T15:44:33.304+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : equlas 결과: true
+2025-10-13T15:51:01.948+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:51:01.949+09:00  INFO 4476 --- [ex-ch03] [Thread-139] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:51:01.951+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:51:02.031+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:51:02.031+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:51:02.031+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:51:02.112+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:51:02.113+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:51:02.113+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:51:02.120+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:51:02.120+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 88 ms
+2025-10-13T15:51:02.155+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:51:02.160+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:51:02.161+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.143 seconds (process running for 6473.837)
+2025-10-13T15:51:02.161+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:51:19.834+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:51:19.835+09:00  INFO 4476 --- [ex-ch03] [Thread-143] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:51:19.837+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:51:19.887+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:51:19.887+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:51:19.887+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:51:19.966+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:51:19.966+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:51:19.966+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:51:19.973+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:51:19.973+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2025-10-13T15:51:19.994+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:51:19.998+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:51:19.999+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.122 seconds (process running for 6491.675)
+2025-10-13T15:51:20.000+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:51:22.653+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T15:51:22.653+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T15:51:22.654+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-13T15:51:22.655+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : == 결과: false
+2025-10-13T15:51:22.655+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : equlas 결과: true
+2025-10-13T15:52:28.632+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:52:28.633+09:00  INFO 4476 --- [ex-ch03] [Thread-147] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:52:28.635+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:52:28.689+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:52:28.689+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:52:28.689+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:52:28.756+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:52:28.757+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:52:28.757+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:52:28.763+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:52:28.763+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 73 ms
+2025-10-13T15:52:28.785+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:52:28.788+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:52:28.790+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.111 seconds (process running for 6560.466)
+2025-10-13T15:52:28.790+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:53:21.007+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T15:53:21.008+09:00  INFO 4476 --- [ex-ch03] [Thread-151] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:53:21.010+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:53:21.063+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:53:21.063+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:53:21.063+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:53:21.131+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:53:21.131+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:53:21.131+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:53:21.137+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:53:21.138+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 74 ms
+2025-10-13T15:53:21.159+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:53:21.163+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:53:21.164+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.111 seconds (process running for 6612.84)
+2025-10-13T15:53:21.164+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:53:36.770+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-10-13T15:53:36.771+09:00  INFO 4476 --- [ex-ch03] [Thread-155] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:53:36.773+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:53:36.826+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:53:36.826+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:53:36.826+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:53:36.894+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:53:36.894+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:53:36.894+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:53:36.901+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:53:36.901+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 74 ms
+2025-10-13T15:53:36.922+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:53:36.926+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:53:36.927+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.111 seconds (process running for 6628.603)
+2025-10-13T15:53:36.928+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T15:58:48.800+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (3 additions, 0 deletions, 1 modification)
+2025-10-13T15:58:48.801+09:00  INFO 4476 --- [ex-ch03] [Thread-159] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T15:58:48.803+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T15:58:48.856+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T15:58:48.856+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T15:58:48.856+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T15:58:48.958+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T15:58:48.959+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T15:58:48.959+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T15:58:48.966+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T15:58:48.966+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 109 ms
+2025-10-13T15:58:49.000+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T15:58:49.006+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T15:58:49.007+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.165 seconds (process running for 6940.682)
+2025-10-13T15:58:49.007+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:02:30.220+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:02:30.221+09:00  INFO 4476 --- [ex-ch03] [Thread-163] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:02:30.223+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:02:30.274+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:02:30.274+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:02:30.274+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:02:30.360+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:02:30.360+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:02:30.361+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:02:30.367+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:02:30.367+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 92 ms
+2025-10-13T16:02:30.389+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:02:30.393+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:02:30.394+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.13 seconds (process running for 7162.069)
+2025-10-13T16:02:30.394+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:03:09.379+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:03:09.379+09:00  INFO 4476 --- [ex-ch03] [Thread-167] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:03:09.381+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:03:09.436+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:03:09.436+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:03:09.436+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:03:09.513+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:03:09.514+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:03:09.514+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:03:09.520+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:03:09.520+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 83 ms
+2025-10-13T16:03:09.542+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:03:09.546+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:03:09.547+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.121 seconds (process running for 7201.222)
+2025-10-13T16:03:09.548+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:03:17.050+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:03:17.051+09:00  INFO 4476 --- [ex-ch03] [Thread-171] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:03:17.053+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:03:17.107+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:03:17.107+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:03:17.107+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:03:17.185+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:03:17.185+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:03:17.185+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:03:17.191+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:03:17.192+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 84 ms
+2025-10-13T16:03:17.213+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:03:17.216+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:03:17.218+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.121 seconds (process running for 7208.893)
+2025-10-13T16:03:17.218+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:04:05.404+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:04:05.405+09:00  INFO 4476 --- [ex-ch03] [Thread-175] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:04:05.407+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:04:05.460+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:04:05.460+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:04:05.460+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:04:05.538+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:04:05.538+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:04:05.538+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:04:05.545+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:04:05.545+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2025-10-13T16:04:05.567+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:04:05.570+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:04:05.572+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.122 seconds (process running for 7257.248)
+2025-10-13T16:04:05.572+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:06:13.139+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:06:13.140+09:00  INFO 4476 --- [ex-ch03] [Thread-179] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:06:13.142+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:06:13.195+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:06:13.195+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:06:13.195+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:06:13.274+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:06:13.274+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:06:13.274+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:06:13.281+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:06:13.281+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2025-10-13T16:06:13.303+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:06:13.306+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:06:13.308+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.122 seconds (process running for 7384.983)
+2025-10-13T16:06:13.308+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:06:18.779+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:06:18.780+09:00  INFO 4476 --- [ex-ch03] [Thread-183] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:06:18.782+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:06:18.835+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:06:18.835+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:06:18.835+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:06:18.913+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:06:18.914+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:06:18.914+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:06:18.920+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:06:18.920+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 84 ms
+2025-10-13T16:06:18.942+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:06:18.945+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:06:18.946+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.121 seconds (process running for 7390.622)
+2025-10-13T16:06:18.947+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:06:23.926+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T16:06:23.926+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T16:06:23.927+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-13T16:06:48.766+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:06:48.767+09:00  INFO 4476 --- [ex-ch03] [Thread-187] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:06:48.769+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:06:48.823+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:06:48.823+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:06:48.823+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:06:48.902+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:06:48.902+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:06:48.902+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:06:48.908+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:06:48.908+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 84 ms
+2025-10-13T16:06:48.930+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:06:48.934+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:06:48.935+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.122 seconds (process running for 7420.611)
+2025-10-13T16:06:48.935+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:06:49.052+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T16:06:49.053+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T16:06:49.053+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-13T16:07:08.665+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:07:08.666+09:00  INFO 4476 --- [ex-ch03] [Thread-191] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:07:08.668+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:07:08.723+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:07:08.723+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:07:08.723+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:07:08.803+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:07:08.803+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:07:08.803+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:07:08.809+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:07:08.810+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 86 ms
+2025-10-13T16:07:08.831+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:07:08.835+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:07:08.836+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.123 seconds (process running for 7440.512)
+2025-10-13T16:07:08.837+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:07:09.632+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T16:07:09.632+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T16:07:09.633+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-13T16:07:29.538+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:07:29.539+09:00  INFO 4476 --- [ex-ch03] [Thread-195] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:07:29.541+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:07:29.595+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:07:29.595+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:07:29.595+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:07:29.673+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:07:29.673+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:07:29.673+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:07:29.680+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:07:29.680+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 84 ms
+2025-10-13T16:07:29.701+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:07:29.704+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:07:29.706+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.121 seconds (process running for 7461.382)
+2025-10-13T16:07:29.706+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:07:30.194+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T16:07:30.194+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T16:07:30.194+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-13T16:09:42.489+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:09:42.490+09:00  INFO 4476 --- [ex-ch03] [Thread-199] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:09:42.492+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:09:42.548+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:09:42.548+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:09:42.548+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:09:42.617+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:09:42.618+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:09:42.618+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:09:42.624+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:09:42.624+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 75 ms
+2025-10-13T16:09:42.646+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:09:42.650+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:09:42.651+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.113 seconds (process running for 7594.327)
+2025-10-13T16:09:42.652+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:10:16.543+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T16:10:16.544+09:00  INFO 4476 --- [ex-ch03] [Thread-203] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:10:16.546+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:10:16.600+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:10:16.600+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:10:16.600+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:10:16.668+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:10:16.669+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:10:16.669+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:10:16.675+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:10:16.675+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 74 ms
+2025-10-13T16:10:16.697+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:10:16.701+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:10:16.702+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.112 seconds (process running for 7628.378)
+2025-10-13T16:10:16.703+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:10:39.483+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-10-13T16:10:39.484+09:00  INFO 4476 --- [ex-ch03] [Thread-207] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:10:39.486+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:10:39.540+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:10:39.540+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:10:39.540+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:10:39.611+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:10:39.611+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:10:39.611+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:10:39.618+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:10:39.618+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 77 ms
+2025-10-13T16:10:39.640+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:10:39.644+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:10:39.646+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.116 seconds (process running for 7651.321)
+2025-10-13T16:10:39.646+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:11:45.164+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:11:45.165+09:00  INFO 4476 --- [ex-ch03] [Thread-211] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:11:45.167+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:11:45.220+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:11:45.220+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:11:45.220+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:11:45.298+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:11:45.299+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:11:45.299+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:11:45.305+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:11:45.305+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 84 ms
+2025-10-13T16:11:45.327+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:11:45.330+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:11:45.331+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.121 seconds (process running for 7717.007)
+2025-10-13T16:11:45.332+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:12:11.137+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T16:12:11.138+09:00  INFO 4476 --- [ex-ch03] [Thread-215] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:12:11.140+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:12:11.194+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:12:11.194+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:12:11.194+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:12:11.262+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:12:11.262+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:12:11.262+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:12:11.268+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:12:11.268+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 73 ms
+2025-10-13T16:12:11.290+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:12:11.293+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:12:11.294+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.11 seconds (process running for 7742.97)
+2025-10-13T16:12:11.295+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:13:33.043+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-10-13T16:13:33.044+09:00  INFO 4476 --- [ex-ch03] [Thread-219] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:13:33.046+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:13:33.099+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:13:33.099+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:13:33.099+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:13:33.178+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:13:33.178+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:13:33.178+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:13:33.184+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:13:33.185+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2025-10-13T16:13:33.206+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:13:33.209+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:13:33.211+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.122 seconds (process running for 7824.886)
+2025-10-13T16:13:33.211+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:14:16.223+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T16:14:16.223+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T16:14:16.224+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-13T16:14:16.225+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : 소나타의 색상은: 블랙
+2025-10-13T16:14:16.225+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : K5의 색상은: 화이트
+2025-10-13T16:14:16.226+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : 소나타의 색상은: 블랙<br>K5의 색상은: 화이트<br>차량 두 대 출고완료
+2025-10-13T16:14:45.781+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T16:14:45.782+09:00  INFO 4476 --- [ex-ch03] [Thread-223] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:14:45.784+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:14:45.840+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:14:45.840+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:14:45.840+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:14:45.908+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:14:45.908+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:14:45.908+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:14:45.915+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:14:45.915+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 75 ms
+2025-10-13T16:14:45.937+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:14:45.940+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:14:45.942+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.112 seconds (process running for 7897.617)
+2025-10-13T16:14:45.942+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:17:41.383+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (1 addition, 0 deletions, 4 modifications)
+2025-10-13T16:17:41.384+09:00  INFO 4476 --- [ex-ch03] [Thread-227] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:17:41.386+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:17:41.440+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:17:41.440+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:17:41.440+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:17:41.528+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:17:41.529+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:17:41.529+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:17:41.535+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:17:41.535+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 94 ms
+2025-10-13T16:17:41.556+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:17:41.560+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:17:41.561+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.131 seconds (process running for 8073.236)
+2025-10-13T16:17:41.562+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:27:14.350+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (0 additions, 1 deletion, 5 modifications)
+2025-10-13T16:27:14.351+09:00  INFO 4476 --- [ex-ch03] [Thread-231] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:27:14.353+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:27:14.405+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:27:14.406+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:27:14.406+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:27:14.485+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:27:14.486+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:27:14.486+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:27:14.493+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:27:14.493+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 86 ms
+2025-10-13T16:27:14.527+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:27:14.531+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:27:14.533+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.138 seconds (process running for 8646.208)
+2025-10-13T16:27:14.534+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:27:21.013+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T16:27:21.014+09:00  INFO 4476 --- [ex-ch03] [Thread-235] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:27:21.016+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:27:21.068+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:27:21.068+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:27:21.068+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:27:21.138+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:27:21.138+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:27:21.138+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:27:21.145+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:27:21.145+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2025-10-13T16:27:21.167+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:27:21.170+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:27:21.172+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.113 seconds (process running for 8652.848)
+2025-10-13T16:27:21.172+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:27:30.697+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (1 addition, 0 deletions, 4 modifications)
+2025-10-13T16:27:30.698+09:00  INFO 4476 --- [ex-ch03] [Thread-239] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:27:30.700+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:27:30.753+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:27:30.753+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:27:30.753+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:27:30.836+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:27:30.837+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:27:30.837+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:27:30.843+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:27:30.843+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 89 ms
+2025-10-13T16:27:30.865+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:27:30.868+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:27:30.870+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.126 seconds (process running for 8662.546)
+2025-10-13T16:27:30.870+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:28:27.137+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-10-13T16:28:27.138+09:00  INFO 4476 --- [ex-ch03] [Thread-243] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:28:27.140+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:28:27.195+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:28:27.195+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:28:27.195+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:28:27.274+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:28:27.274+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:28:27.275+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:28:27.281+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:28:27.281+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2025-10-13T16:28:27.303+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:28:27.306+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:28:27.307+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.122 seconds (process running for 8718.983)
+2025-10-13T16:28:27.308+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:28:50.033+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-10-13T16:28:50.034+09:00  INFO 4476 --- [ex-ch03] [Thread-247] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:28:50.036+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:28:50.091+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:28:50.091+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:28:50.091+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:28:50.170+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:28:50.170+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:28:50.170+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:28:50.176+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:28:50.176+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 84 ms
+2025-10-13T16:28:50.198+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:28:50.202+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:28:50.203+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.122 seconds (process running for 8741.879)
+2025-10-13T16:28:50.203+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:28:57.478+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T16:28:57.479+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T16:28:57.479+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-13T16:28:57.480+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : 재정렬된 코드: [public, static, void]
+2025-10-13T16:28:57.480+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : 람다식으로 재정렬된 코드: [public, static, void]
+2025-10-13T16:29:21.996+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-10-13T16:29:21.997+09:00  INFO 4476 --- [ex-ch03] [Thread-251] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:29:21.999+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:29:22.054+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:29:22.054+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:29:22.054+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:29:22.133+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:29:22.134+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:29:22.134+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:29:22.140+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:29:22.140+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 85 ms
+2025-10-13T16:29:22.163+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:29:22.167+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:29:22.168+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.124 seconds (process running for 8773.844)
+2025-10-13T16:29:22.169+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:29:24.509+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-13T16:29:24.509+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-13T16:29:24.509+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-13T16:29:24.511+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : 재정렬된 코드: [public, static, void]
+2025-10-13T16:29:24.511+09:00  INFO 4476 --- [ex-ch03] [http-nio-8080-exec-1] com.example.demo.service.ExService       : 람다식으로 재정렬된 코드: [public, static, void]
+2025-10-13T16:33:59.557+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2025-10-13T16:33:59.558+09:00  INFO 4476 --- [ex-ch03] [Thread-255] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:33:59.560+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:33:59.613+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:33:59.613+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:33:59.613+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:33:59.708+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:33:59.709+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:33:59.709+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:33:59.716+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:33:59.716+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 102 ms
+2025-10-13T16:33:59.749+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:33:59.753+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:33:59.755+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.154 seconds (process running for 9051.43)
+2025-10-13T16:33:59.757+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:34:51.847+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T16:34:51.847+09:00  INFO 4476 --- [ex-ch03] [Thread-259] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:34:51.849+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:34:51.903+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:34:51.904+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:34:51.904+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:34:51.971+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:34:51.972+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:34:51.972+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:34:51.978+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:34:51.978+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 74 ms
+2025-10-13T16:34:52.000+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:34:52.003+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:34:52.005+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.11 seconds (process running for 9103.68)
+2025-10-13T16:34:52.005+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:36:14.522+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T16:36:14.523+09:00  INFO 4476 --- [ex-ch03] [Thread-263] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:36:14.525+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:36:14.579+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:36:14.580+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:36:14.580+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:36:14.647+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:36:14.648+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:36:14.648+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:36:14.654+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:36:14.654+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 74 ms
+2025-10-13T16:36:14.675+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:36:14.679+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:36:14.680+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.11 seconds (process running for 9186.355)
+2025-10-13T16:36:14.680+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:36:32.303+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T16:36:32.304+09:00  INFO 4476 --- [ex-ch03] [Thread-267] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:36:32.306+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-13T16:36:32.362+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Starting ExCh03Application using Java 21.0.8 with PID 4476 (D:\s09_springBoot\day02_1013\ex-ch03\bin\main started by YONSAI in D:\s09_springBoot\day02_1013\ex-ch03)
+2025-10-13T16:36:32.362+09:00 DEBUG 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-13T16:36:32.362+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : No active profile set, falling back to 1 default profile: "default"
+2025-10-13T16:36:32.430+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-13T16:36:32.430+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-13T16:36:32.430+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-13T16:36:32.437+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-13T16:36:32.437+09:00  INFO 4476 --- [ex-ch03] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 75 ms
+2025-10-13T16:36:32.458+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-13T16:36:32.462+09:00  INFO 4476 --- [ex-ch03] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-13T16:36:32.463+09:00  INFO 4476 --- [ex-ch03] [restartedMain] com.example.demo.ExCh03Application       : Started ExCh03Application in 0.111 seconds (process running for 9204.138)
+2025-10-13T16:36:32.464+09:00  INFO 4476 --- [ex-ch03] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-13T16:37:07.353+09:00  INFO 4476 --- [ex-ch03] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-13T16:37:07.353+09:00  INFO 4476 --- [ex-ch03] [Thread-271] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-13T16:37:07.355+09:00  INFO 4476 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
