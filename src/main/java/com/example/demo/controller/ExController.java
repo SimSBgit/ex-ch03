@@ -34,12 +34,26 @@ public class ExController {
 	public String getMethodName() {
 		return exService.sayHello("안녕");
 	}
+
+	@GetMapping("/ex70")
+	public String ex70() {
+		return exService.ex70();
+	}
+	
+	@GetMapping("/ex72")
+	public Integer ex72() {
+		return exService.ex72();
+	}
+	
+	@GetMapping("/ex73")
+	public String[] ex73() {
+		return exService.ex73();
+	}
 	
 	@GetMapping("/ex75")
 	public String ex75() {
 		return exService.ex75();
 	}
-	
 	
 	@GetMapping("/ex76")
 	public Object ex76() {
@@ -61,18 +75,24 @@ public class ExController {
 		return exService.ex85();
 	}
 	
-	@GetMapping("/ex70")
-	public String ex70() {
-		return exService.ex70();
+	@GetMapping("/ex88")
+	public List<String> ex88() {
+		return exService.ex88();
 	}
 	
-	@GetMapping("/ex72")
-	public Integer ex72() {
-		return exService.ex72();
+	@GetMapping("/ex88_332")
+	public List<String> ex88_332() {
+		return exService.ex88_332();
 	}
 	
-	@GetMapping("/ex73")
-	public String[] ex73() {
-		return exService.ex73();
+	@GetMapping("/ex89_333")
+	public List<Integer> ex89_333() {
+		return ExService.ex89_333();
 	}
+	
+	@GetMapping("/ex90")
+	public List<Integer> ex90() {
+		return ExService.ex90();
+	}
+	
 }

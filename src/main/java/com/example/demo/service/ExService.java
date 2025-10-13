@@ -1,11 +1,13 @@
 package com.example.demo.service;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -178,9 +180,60 @@ public class ExService {
 		return list;
 	}
 
-	
+	public List<String> ex88() {
+		List<String> list = new ArrayList<>();
+		
+		list.add("public");
+		list.add("static");
+		list.add("void");
+		
+		for(int i=0; i<list.size(); i++) {
+			log.info("index가 " + i + "인 list의 값: " + list.get(i));
+		}
+		
+		return list;
+	}
 
-	
+	public List<String> ex88_332() {
+		List<String> list = new ArrayList<>();
+		
+		list.add("public");
+		list.add("static");
+		list.add("void");
+		
+		list.stream().forEach(str -> log.info(str));
+		return list;
+	}
+
+	public static List<Integer> ex89_333() {
+		Integer[] integerArray = new Integer[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		List<Integer> list = Arrays.asList(integerArray);
+		
+		List evenList = new ArrayList<Integer>();
+		
+		for(int i=0; i<list.size(); i++) {
+			Integer number = list.get(i);
+			if(number % 2 == 0) {
+				evenList.add(number);
+			}
+		}
+		for(int i=0; i<evenList.size(); i++) {
+			log.info(""+ evenList.get(i));
+		}
+		return evenList;
+	}
+
+	public static List<Integer> ex90() {
+		Integer[] integerArray = new Integer[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		List<Integer> list = Arrays.asList(integerArray);
+		
+		List<Integer> evenList = list.stream()
+					.filter(value -> value % 2 == 0).collect(Collectors.toList());
+		
+		evenList.stream().forEach(value -> log.info("값은: " + value));
+		return evenList;
+	}
+
 	
 	
 }
