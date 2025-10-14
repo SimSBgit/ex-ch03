@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
@@ -234,6 +235,147 @@ public class ExService {
 		return evenList;
 	}
 
-	
+
+	public List<Integer> ex91() {
+		Integer[] integerArray = new Integer[] {1, 2, 3, 4, 5};
+		List<Integer> list = Arrays.asList(integerArray);
+				
+		list.stream().forEach(value -> {
+			StringBuilder result = new StringBuilder();
+			result.append(value);
+			log.info("결과 - " + result);
+		});
+		return list;
+	}
+
+	public List<Integer> ex92() {
+		Integer[] integerArray = new Integer[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		List<Integer> list = Arrays.asList(integerArray);
+		
+		List<Integer> evenList = list.stream()
+				.filter(value -> value % 2 == 0).collect(Collectors.toList());
+		evenList.stream().forEach(value -> log.info("값 - " + value));
+		return evenList;
+	}
+
+	public List<Integer> ex93_337() {
+		Integer[] integerArray = new Integer[] {1, 1, 1, 1, 2, 2, 2, 3, 3, 4};
+		List<Integer> list = Arrays.asList(integerArray);
+		
+		List<Integer> distinctList = list.stream().distinct().toList();
+		distinctList.stream().forEach(value -> log.info("값 - " + value));
+		
+		return distinctList;
+	}
+
+	public List<String> ex93_338() {
+		String[] lowercaseArray = new String[] {"public", "static", "void"};
+		List<String> lowercaseList = Arrays.asList(lowercaseArray);
+		
+		List<String> uppercaseList = lowercaseList.stream()
+				.map(value -> value.toUpperCase()).toList();
+		uppercaseList.stream().forEach(value -> log.info("값 - " + value));
+		return uppercaseList;
+	}
+
+	public String ex94() {
+		class InnerClass {
+			private String getSomeString() {
+				return null;
+			}
+		}
+		InnerClass inner = new InnerClass();
+		String isThisNull = inner.getSomeString();
+		
+		if(null != isThisNull) {
+			log.info(isThisNull.toUpperCase());
+		}
+		
+		return isThisNull;
+	}
+
+	public String ex95_3310() {
+		class InnerClass {
+			private String getSomeString() {
+				return null;
+			}
+		}
+		InnerClass inner = new InnerClass();
+		String isThisNull = inner.getSomeString();
+		
+		log.info(isThisNull.toUpperCase());
+		return isThisNull;
+	}
+
+	public Optional<String> ex95_3311() {
+		class InnerClass {
+			private Optional<String> getSomeString() {
+				return Optional.empty();
+			}
+		}
+		InnerClass inner = new InnerClass();
+		Optional<String> isThisNull = inner.getSomeString();
+		
+		isThisNull.ifPresent(str -> log.info(str.toUpperCase()));
+		return isThisNull;
+	}
+
+	public Optional<String> ex96_3312() {
+		class InnerClass {
+			private Optional<String> getSomeString() {
+				return Optional.ofNullable("public static void");
+			}
+		}
+		InnerClass inner = new InnerClass();
+		Optional<String> isThisNull = inner.getSomeString();
+		
+		isThisNull.ifPresent(str -> log.info(str.toUpperCase()));
+		return isThisNull;
+	}
+
+	// 안티 패턴, 잘못된 사례
+	public Optional<String> ex97() {
+		class InnerClass {
+			private Optional<String> getSomeString() {
+				return Optional.ofNullable("public static void");
+			}
+		}
+		InnerClass inner = new InnerClass();
+		Optional<String> str = inner.getSomeString();
+		
+		if(str.isPresent()) {
+			log.info(str.get().toUpperCase());
+		}
+		return str;
+	}
+
+	// 안티 패턴 -> 정상 코드로 수정
+	public Optional<String> ex98() {
+		class InnerClass {
+			private Optional<String> getSomeString() {
+				return Optional.ofNullable("public static void");
+			}
+		}
+		InnerClass inner = new InnerClass();
+		Optional<String> str = inner.getSomeString();
+		
+		str.ifPresent((string) -> log.info(string.toUpperCase()));
+		return str;
+	}
+
+	public String ex159() {
+		log.info("exService.ex159() 메서드 실행");
+		return "Hello exService.ex159()";
+	}
+
+	public String ex161() {
+		log.info("exService.ex161() 메서드 실행");
+		return "Hello exService.ex161()";
+	}
+
+	public String ex163() {
+		log.info("exService.ex163() 메서드 실행");
+		return "Hello <strong>Backend</strong>";
+	}
 	
 }

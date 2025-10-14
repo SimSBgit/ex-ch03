@@ -6,10 +6,12 @@ import com.example.demo.service.ExService;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
@@ -95,4 +97,81 @@ public class ExController {
 		return ExService.ex90();
 	}
 	
+
+	@GetMapping("/ex91")
+	public List<Integer> ex91() {
+		return exService.ex91();
+	}
+	
+	@GetMapping("/ex92")
+	public List<Integer> ex92() {
+		return exService.ex92();
+	}
+	
+	@GetMapping("/ex93_337")
+	public List<Integer> ex93_337() {
+		return exService.ex93_337();
+	}
+	
+	@GetMapping("/ex93_338")
+	public List<String> ex93_338() {
+		return exService.ex93_338();
+	}
+	
+	@GetMapping("/ex94")
+	public String ex94() {
+		return exService.ex94();
+	}
+	
+	@GetMapping("/ex95_3310")
+	public String ex95_3310() {
+		return exService.ex95_3310();
+	}
+	
+	@GetMapping("/ex95_3311")
+	public Optional<String> ex95_3311() {
+		return exService.ex95_3311();
+	}
+	
+	@GetMapping("/ex96_3312")
+	public Optional<String> ex96_3312() {
+		return exService.ex96_3312();
+	}
+	
+	@GetMapping("/ex97")
+	public Optional<String> ex97() {
+		return exService.ex97();
+	}
+	
+	@GetMapping("/ex98")
+	public Optional<String> ex98() {
+		return exService.ex98();
+	}
+	
+	// 여기부터 5장
+	@RequestMapping("/ex159")
+	public String ex159() {
+		return exService.ex159();
+	}
+	
+	@RequestMapping("/ex161")
+	public String ex161_1() {
+		return exService.ex161();
+	}
+	
+	// Ambiguous mapping
+//	@RequestMapping("/ex161")
+//	public String ex161_2() {
+//		return "동일 경로 호출";
+//	}
+	
+	@RequestMapping("/ex163")
+	public String ex163() {
+		return exService.ex163();
+	}
+	
+	@GetMapping("/testImage")
+	public String getImage() {
+		return "/images/Francesco Ungaro.avif";
+	}
 }
