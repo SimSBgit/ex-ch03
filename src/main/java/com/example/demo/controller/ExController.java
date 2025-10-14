@@ -183,7 +183,4 @@ public class ExController {
 						@RequestParam("content") String content) {
 		return String.format("title=%s / content=%s", title, content);
 	}
-	
-	
-	
 }
