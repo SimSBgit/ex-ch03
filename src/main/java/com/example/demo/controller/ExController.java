@@ -13,6 +13,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestMethod;
+
 
 
 
@@ -174,4 +176,14 @@ public class ExController {
 	public String getImage() {
 		return "/images/Francesco Ungaro.avif";
 	}
+	
+	// p. 207 - 208
+	@RequestMapping("/html/article")
+	public String ex207(@RequestParam("title") String title,
+						@RequestParam("content") String content) {
+		return String.format("title=%s / content=%s", title, content);
+	}
+	
+	
+	
 }
