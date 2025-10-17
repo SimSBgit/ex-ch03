@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화면테스트</title>
+    <style>
+        form {
+            width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>get방식</h2>
+    <form action="./article-get" method="get">
+        <input type="text" name="title"><br>
+        <input type="text" name="content"><br>
+        <input type="submit">
+        <br>
+        <img src="../images/get2.png" alt="article-get">
+    </form>
+
+    <h2>post방식</h2>
+    <form action="./article-post" method="post">
+        <input type="text" name="title"><br>
+        <input type="text" name="content"><br>
+        <input type="submit">
+        <br>
+        <img src="../images/post2.png" alt="article-post">
+    </form>
+
+    <form action="#">
+        <h2>postman방식</h2>
+        <p>포스트맨으로 테스트하세요.
+            /html/article-postman
+        </p>
+        <br>
+        <img src="../images/postman2.png" alt="article-postman">
+    </form>
+
+    <h2>post-auto방식</h2>
+    <form action="./article-auto" method="post">
+        <input type="text" name="title"><br>
+        <input type="text" name="content"><br>
+        <input type="submit">
+        <br>
+        <img src="../images/auto2.png" alt="article-auto">
+    </form>
+</body>
+
+</html>

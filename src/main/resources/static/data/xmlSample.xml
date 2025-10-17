@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articles>
+	<article>
+		<title>Hello XML</title>
+		<content>This is a test XML file.</content>
+	</article>
+	<article>
+		<title>Second Post</title>
+		<content>XML is easy to use!</content>
+	</article>
+</articles>
