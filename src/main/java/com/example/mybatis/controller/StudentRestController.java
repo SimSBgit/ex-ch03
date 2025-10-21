@@ -49,6 +49,7 @@ public class StudentRestController {
 			return ResponseEntity.notFound().build();
 		return ResponseEntity.ok(student);
 	}
+	
 //	등록 post
 	@PostMapping
 	public ResponseEntity<Student> create(@RequestBody Student student) {
