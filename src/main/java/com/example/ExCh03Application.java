@@ -5,7 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 
-@ComponentScan(basePackages = {"com.example.extemplate", "com.example.getpost", "com.example.demo", "com.example.calculator2" })
+//@ComponentScan(basePackages = {"com.example.extemplate", 
+//		"com.example.getpost", "com.example.demo", 
+//		"com.example.calculator2", "com.example.mybatis"
+//		})
 @SpringBootApplication
 public class ExCh03Application {
 
@@ -14,3 +17,4 @@ public class ExCh03Application {
 	}
 
 }
+
